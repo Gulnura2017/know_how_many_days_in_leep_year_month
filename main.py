@@ -21,7 +21,7 @@ def days_in_month(year, month):
         days = month_days_non_leap[month - 1]
         return days
  
-#🚨 Do NOT change any of the code below 
+
 year = int(input("Enter a year: "))
 month = int(input("Enter a month: "))
 days = days_in_month(year, month)
